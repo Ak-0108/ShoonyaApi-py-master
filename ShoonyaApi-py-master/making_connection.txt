@@ -1,0 +1,7 @@
+from connection import MyAPIConnection
+
+#start of our program
+con_obj=MyAPIConnection()
+api = ShoonyaApiPy()
+api=con_obj.get_api_connection()
+***********************************
